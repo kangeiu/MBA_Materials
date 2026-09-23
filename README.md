@@ -1,6 +1,6 @@
-# MBA Course Materials: BUS 530
+# Global Markets, Investments & Analytics (BUS 520) Course Materials
 
-Welcome to the central repository for our MBA coursework (BUS 530) at Becamex Business School, Eastern International University. This repository contains the Python code, datasets, and interactive Streamlit applications utilized in our coursework.
+Welcome to the central repository for our MBA coursework (BUS 520) at Becamex Business School, Eastern International University. This repository contains the Python code, datasets, and interactive Streamlit applications utilized in our coursework.
 
 ## Overview
 
