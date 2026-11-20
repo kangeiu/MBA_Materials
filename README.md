@@ -18,6 +18,6 @@ To ensure all scripts and dashboards run correctly, please follow these initial 
 
 1. **Install Python & Tools:** Navigate to the `Python_installation` folder and follow the provided instructions to set up your environment before proceeding to the course materials.
 2. **Install Dependencies:** Once your environment is configured, install the required packages using the provided `requirements.txt` file located in the main directory.
-3. **Access Weekly Content:** Proceed to the weekly folders (e.g., `Week1`) to begin working with the datasets and building interactive dashboards.
+3. **Access Weekly Content:** Proceed to the weekly folders (e.g., `Week7`) to begin working with the datasets and building interactive dashboards.
 
 If you have any questions during the setup process or encounter issues with the web applications, please feel free to ask during our sessions.
