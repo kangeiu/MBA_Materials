@@ -4,6 +4,8 @@
 
 ## 1. Windows (PowerShell)
 
+### Initial setup (one time)
+
 Open **PowerShell** and run one of the following commands:
 
 * **Recommended Command (Bypasses ExecutionPolicy restrictions & keeps the virtual environment active):**
@@ -18,7 +20,34 @@ Open **PowerShell** and run one of the following commands:
   Get-Content "$HOME\Downloads\setup_windows.ps1" -Raw | Invoke-Expression
   ```
 
+### Daily use
+
+#### Reopen the dashboard
+
+Each time you return, open **PowerShell** and paste these **two commands** together:
+
+```powershell
+cd $HOME\Downloads\code-practice
+.\.venv\Scripts\Activate.ps1
+```
+
+Then run your project's Streamlit launch command to start the dashboard.
+
+#### Stop the dashboard
+
+| Goal | Action |
+| --- | --- |
+| Stop Streamlit | In the PowerShell window running it, press **Ctrl + C**. |
+| Leave the virtual environment | Type `deactivate`. |
+| Close everything | Close the PowerShell window. |
+
+Closing the **browser tab does not stop** Streamlit; use **Ctrl + C** in PowerShell.
+
+---
+
 ## 2. macOS (Terminal)
+
+### Initial setup (one time)
 
 Open **Terminal** and run one of the following commands:
 
@@ -33,3 +62,26 @@ Open **Terminal** and run one of the following commands:
   ```bash
   eval "$(cat ~/Downloads/setup_macos.sh)"
   ```
+
+### Daily use
+
+#### Reopen the dashboard
+
+Each time, open **Terminal**. If you are in a Conda `(base)` environment, run `conda deactivate` first. Then paste these **two commands** together:
+
+```bash
+cd ~/Downloads/code-practice
+source .venv/bin/activate
+```
+
+Then run your project's Streamlit launch command to start the dashboard.
+
+#### Stop the dashboard
+
+| Goal | Action |
+| --- | --- |
+| Stop Streamlit | In the Terminal window running it, press **Control + C**. |
+| Leave the virtual environment | Type `deactivate`. |
+| Stop everything | Press **Cmd + Q** and select **Terminate** if asked. |
+
+**Control + C** stops the dashboard; **Cmd + C** copies text. Closing only the browser tab does not stop Streamlit.
